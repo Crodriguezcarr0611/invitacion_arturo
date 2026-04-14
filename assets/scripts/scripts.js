@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     // BOTONES AQUÍ:
     confirmButtonText:
-      '<i class="bi bi-heart-fill me-2" style="color: #e0245e"></i>Sí, estamos listas! <i class="bi bi-heart-fill me-2" style="color: #e0245e;"></i>',
+      '<i class="bi bi-heart-fill me-2" style="color: #e0245e"></i>Sí, estoy listo! <i class="bi bi-heart-fill me-2" style="color: #e0245e;"></i>',
     customClass: {
       confirmButton:
         "btn btn-warning mr-2 animate__animated animate__pulse animate__infinite",
