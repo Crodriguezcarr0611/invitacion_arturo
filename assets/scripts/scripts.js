@@ -1,7 +1,7 @@
 function enviarConfirmacion() {
   Swal.fire({
     title: "¡Gracias por confirmar su asistencia!",
-    text: "Estamos emocionados de contar con ustedes en nuestro día especial. ¡Nos vemos pronto!",
+    text: "Estamos emocionados de contar contigo en nuestro día especial. ¡Nos vemos pronto!",
     icon: "success",
     // ANIMACIONES AQUÍ:
     showClass: {
@@ -23,9 +23,9 @@ function enviarConfirmacion() {
       emailjs
         .send("service_7z4jaug", "template_vtyjaje", {
           to_name:
-            "Nombre de invitados: Angélica y Analy- Confirmado para 02 personas",
+            "Nombre de invitados: Arturo y compañia - Confirmado para 02 personas",
           from_name: "Invitado Confirmado",
-          message: "Angélica y Analy - Confirmado para 02 personas",
+          message: "Arturo y compañia - Confirmado para 02 personas",
         })
         .then(
           function (response) {
